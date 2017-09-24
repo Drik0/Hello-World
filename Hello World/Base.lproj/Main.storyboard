@@ -33,13 +33,23 @@
                                     <action selector="welcomeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tUx-zT-IsM"/>
                                 </connections>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGd-Kf-UKI">
+                                <rect key="frame" x="127" y="584" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Press to continue"/>
+                                <connections>
+                                    <action selector="continueBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A4H-va-xa5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="bgImageView" destination="sjY-bi-gAs" id="ptP-5y-oo2"/>
+                        <outlet property="continueBtn" destination="PGd-Kf-UKI" id="VCg-rT-kL4"/>
                         <outlet property="logoImageView" destination="h50-ZL-pfi" id="BXB-wR-XO2"/>
+                        <outlet property="welcomeBtn" destination="HCH-oJ-bN9" id="eXh-yO-nYk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
