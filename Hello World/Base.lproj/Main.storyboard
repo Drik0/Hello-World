@@ -29,6 +29,9 @@
                                 <rect key="frame" x="153" y="584" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Welcome!"/>
+                                <connections>
+                                    <action selector="welcomeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tUx-zT-IsM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
